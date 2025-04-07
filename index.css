@@ -1,0 +1,146 @@
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
+  p {
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 96px; 
+    background-image: linear-gradient(red, blue);
+    color: transparent;
+    background-clip: text}
+
+
+    .grad1 {
+        background-image: linear-gradient(red, blue);
+        color: transparent;
+        background-clip: text}    
+    .grad2 {
+        background-image: linear-gradient(green, rgb(255, 0, 0));
+        color: transparent;
+        background-clip: text}
+    .grad3 {
+        background-image: linear-gradient(blue, green);
+        color: transparent;
+        background-clip: text}
+    .grad4 {
+        background-image: linear-gradient(yellow, red);
+        color: transparent;
+        background-clip: text}
+
+
+    .andika-regular {
+        font-family: "Andika", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .andika-bold {
+        font-family: "Andika", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .andika-regular-italic {
+        font-family: "Andika", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .andika-bold-italic {
+        font-family: "Andika", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      p {
+        font-family: "Andika", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      ul {
+        font-family: "Andika", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+    .redpanel {
+        background-image: linear-gradient(red, rgb(255, 98, 0));
+        background-clip:border-box;
+        max-width: 600px;
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+    .redpanel h3 {
+        color: black
+        }
+
+
+        
+        
+/* Base styles for the details element */
+details.overlay {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  
+  /* The overlay (hidden by default) */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+  }
+  
+  /* The content inside the overlay */
+  .overlay-content {
+    background-image: linear-gradient(rgb(38, 0, 255), rgb(0, 183, 255));
+    color: white;
+    background-clip:border-box;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .overlay-content h3 {
+    background-image: linear-gradient(red, rgb(255, 153, 0));
+    color: transparent;
+    background-clip: text;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .overlay-trigger {
+    display: inline;
+    /* background-color: #007bff; */
+    color:red;
+    text-shadow: #fc0 1px 0 10px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .overlay-trigger:hover {
+    background-color: #0056b3;
+  }
+  
