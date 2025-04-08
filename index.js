@@ -33,3 +33,19 @@ function toggleOverlay(event, overlayId) {
     overlay.addEventListener('click', closeOverlayOnClickOutside);
   });
   
+
+// JavaScript to toggle the menu
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('hidden');
+}
+
+// Sticky hamburger functionality
+window.onscroll = function() {
+    const hamburger = document.getElementById('hamburger');
+    if (window.scrollY > 50) {
+        hamburger.classList.add('sticky');
+    } else {
+        hamburger.classList.remove('sticky');
+    }
+};
