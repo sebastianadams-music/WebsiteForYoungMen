@@ -5,10 +5,10 @@
     
   }
 
-
+/* 
 #parents-section p {
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
   p {
     max-width: 800px;
@@ -163,6 +163,9 @@ details.overlay {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
+
+
+
   .overlay-content h3 {
     background-image: linear-gradient(red, rgb(255, 153, 0));
     color: transparent;
@@ -170,6 +173,12 @@ details.overlay {
     font-family: "Bangers", system-ui;
     font-weight: 400;
     font-style: normal;
+  }
+
+.research-content {
+  background-image: linear-gradient(rgb(0, 255, 0), rgb(0, 160, 102));
+  color: white; 
+    background-clip:border-box;
   }
   
   .overlay-trigger {
